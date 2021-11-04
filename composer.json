@@ -1,9 +1,9 @@
 {
-    "name": "easycorp/easyadmin-bundle",
+    "name": "smirik/easyadmin-bundle",
     "type": "symfony-bundle",
-    "description": "Admin generator for Symfony applications",
+    "description": "Fork of Admin generator for Symfony applications",
     "keywords": ["backend", "admin", "generator"],
-    "homepage": "https://github.com/EasyCorp/EasyAdminBundle",
+    "homepage": "https://github.com/smirik/EasyAdminBundle",
     "license": "MIT",
     "authors": [
         {

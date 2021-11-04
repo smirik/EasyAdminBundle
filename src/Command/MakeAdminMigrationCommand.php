@@ -32,8 +32,7 @@ class MakeAdminMigrationCommand extends Command
     protected function configure()
     {
         $this
-            ->setDescription('Exports EasyAdmin 2 config to later migrate it to EasyAdmin 3 config.')
-        ;
+            ->setDescription('Exports EasyAdmin 2 config to later migrate it to EasyAdmin 3 config.');
     }
 
     /**
@@ -71,8 +70,8 @@ class MakeAdminMigrationCommand extends Command
 
         $io->section('What\'s next?');
         $io->listing([
-            "1) Update the <info>easycorp/easyadmin-bundle</> dependency to <info>^3.0</> in your <info>composer.json</> file.\n",
-            "2) Run the <info>composer update easycorp/easyadmin-bundle</> command to update EasyAdmin (or run just <info>composer update</> to update all dependencies).\n",
+            "1) Update the <info>smirik/easyadmin-bundle</> dependency to <info>^3.0</> in your <info>composer.json</> file.\n",
+            "2) Run the <info>composer update smirik/easyadmin-bundle</> command to update EasyAdmin (or run just <info>composer update</> to update all dependencies).\n",
             "3) Depending on your project config, you may see some errors after upgrading. They are caused by config files which still reference old EasyAdmin 2 files (such as 'EasyAdminController'). Comment that config or remove those files because you won\'t need them anymore.\n",
             "4) If you need help, read https://symfony.com/doc/master/bundles/EasyAdminBundle/upgrade.html or visit the #easyadminbundle channel on https://symfony.com/slack\n",
             '5) Once all issues are fixed, run this exact command again in your project to generate the EasyAdmin 3 files using the EasyAdmin 2 config backup.',
